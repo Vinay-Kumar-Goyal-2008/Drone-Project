@@ -12,7 +12,7 @@ This project presents a software-based drone control system that enables navigat
 
 ###  Demo Video
 
-**[Click here to watch the full system demo](https://www.google.com/search?q=https://your-link-here.com)**
+**[Click here to watch the full system demo]((https://www.youtube.com/playlist?list=PLC8qHbcbCgf0aLKcgPk5loH65DdO7utwf))**
 
 ---
 
