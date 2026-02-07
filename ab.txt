@@ -1,0 +1,22 @@
+My project has all the following mentioned points:- 
+
+1. It can capture both static and dynamic gestures using a sliding window and make the gesture predictions on the basis of majority of votings of 5 predictions
+2. It integrates voice integration and uses google speech to text and predicts the commands user expects the drone to do along with the factual data if user said any (for eg user said "Move up by 50 m" so it understood, up and 50 m)
+3. It uses a gateway logic to map both gestures and voice predictions. In case of conflicts it prefers the prediction which have more confidence which makes it robust to conflicts
+4. It calculates the hand velocity of the user and if the motion of user is dynamic then that hand velocity can be mapped with the velocity of drone giving the drone a real time velocity synced with hand
+5. It also takes user's face data and predicts the intention of user like if user moves his face to the left, the model understood the user wants the drone to move left
+6. It also integrates object evasion. It tells the drone the perfect zone to move so as to evade from an obstacle in front of it requiring less manual control. 
+
+In future this can be expanded like this:- 
+
+1. A model can be integrated that keeps in track the smoothness and the texture of the surface and predicts the safest place for the landing of the drone which can lead to safe landings of drone and reduce of losses
+2. Drones can also be moved through the movements of eyes like if user rolls his eyes to left, drone goes to left and other things which gives a strong automation to the drone
+
+
+
+
+I learnt the following things from this project:-
+
+1. The use of cnn in real world datasets like how images are fed to models
+2. getting hands to hand landmarks detection and face landmarks
+3. The mapped and gateway critical logics useful in real world data
